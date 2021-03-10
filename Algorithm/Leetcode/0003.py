@@ -1,4 +1,4 @@
-# 1476 Subrectangle Queries    
+# 1476. Subrectangle Queries    
 
 """https://leetcode.com/problems/subrectangle-queries/discuss/685561/Python-Easier-solution"""
 
