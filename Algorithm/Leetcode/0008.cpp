@@ -2,8 +2,6 @@
 
 // https://leetcode.com/problems/number-of-good-pairs/discuss/731561/JavaC%2B%2BPython-Count
 
-// 還沒看懂
-
 class Solution {
 public:
     int numIdenticalPairs(vector<int>& nums) {
