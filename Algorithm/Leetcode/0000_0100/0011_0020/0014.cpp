@@ -7,10 +7,10 @@ public:
         int n = s.size();
         string output;
         output.resize(n);
-            for(int i = 0; i< n; ++i)
-            {
-                output[indices[i]] = s[i];
-            }
+        for(int i = 0; i< n; ++i)
+        {
+            output[indices[i]] = s[i];
+        }
         return output;
     }
 };
