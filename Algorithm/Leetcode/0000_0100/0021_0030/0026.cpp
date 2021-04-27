@@ -1,7 +1,12 @@
 // 1315. Sum of Nodes with Even-Valued GrandparentSolution
 
+#include "../../common.hpp"
+
+class Solution 
+{
 public:
-	int sumEvenGrandparent(TreeNode* root, int parent_val = 1, int grand_parent_val = 1) {
+	int sumEvenGrandparent(TreeNode* root, int parent_val = 1, int grand_parent_val = 1) 
+	{
 		int sum = 0;
 		if (root)
 		{
@@ -14,5 +19,5 @@ public:
 			sum += sumEvenGrandparent(root->right, root->val, parent_val);
 		}			
 		return sum;
-    }
+	}
 };
